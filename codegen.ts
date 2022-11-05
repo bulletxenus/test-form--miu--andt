@@ -8,7 +8,7 @@ const config: CodegenConfig = {
   generates: {
     "./src/graphQL/types/": {
       preset: "client",
-      plugins: ['typescript']
+      plugins: []
     }
   }
 };
