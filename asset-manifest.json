@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/test-form--miu--andt/static/css/main.e32d2b9e.css",
+    "main.js": "/test-form--miu--andt/static/js/main.fd875d8e.js",
+    "index.html": "/test-form--miu--andt/index.html",
+    "main.e32d2b9e.css.map": "/test-form--miu--andt/static/css/main.e32d2b9e.css.map",
+    "main.fd875d8e.js.map": "/test-form--miu--andt/static/js/main.fd875d8e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e32d2b9e.css",
+    "static/js/main.fd875d8e.js"
+  ]
+}
