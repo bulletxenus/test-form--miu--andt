@@ -1,5 +1,6 @@
 {
   "name": "test-form",
+  "homepage": "https://bulletxenus.github.io/test-form--miu--andt/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,6 +17,7 @@
     "@types/react-dom": "^18.0.8",
     "antd": "^4.24.1",
     "formik": "^2.2.9",
+    "gh-pages": "^4.0.0",
     "graphql": "^16.6.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -28,7 +30,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "generate": "graphql-codegen --config codegen.ts"
+    "generate": "graphql-codegen --config codegen.ts",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": [
