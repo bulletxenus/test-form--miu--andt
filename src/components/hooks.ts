@@ -38,6 +38,8 @@ export const useUpdateCache: UseUpdateCacheFn = (
                 };
                 updateQuery(newOption);
                 onChange(newOption);
+            } else {
+                onChange(newValue);
             }
         },
         [updateQuery, onChange, options]
