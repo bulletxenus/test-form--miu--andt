@@ -4,11 +4,11 @@ import { TypedDocumentNode as DocumentNode } from '@graphql-typed-document-node/
 
 const documents = {
     "\n    query applicantIndividualCompanyRelations {\n        applicantIndividualCompanyRelations {\n            data {\n                id\n                name\n            }\n        }\n    }\n": types.ApplicantIndividualCompanyRelationsDocument,
-    "\n    query applicantIndividualCompanyPositions {\n        applicantIndividualCompanyPositions {\n            data {\n                id\n                name }\n        }\n    }\n": types.ApplicantIndividualCompanyPositionsDocument,
+    "\n    query applicantIndividualCompanyPositions {\n        applicantIndividualCompanyPositions {\n            data {\n                id\n                name\n            }\n        }\n    }\n": types.ApplicantIndividualCompanyPositionsDocument,
 };
 
 export function graphql(source: "\n    query applicantIndividualCompanyRelations {\n        applicantIndividualCompanyRelations {\n            data {\n                id\n                name\n            }\n        }\n    }\n"): (typeof documents)["\n    query applicantIndividualCompanyRelations {\n        applicantIndividualCompanyRelations {\n            data {\n                id\n                name\n            }\n        }\n    }\n"];
-export function graphql(source: "\n    query applicantIndividualCompanyPositions {\n        applicantIndividualCompanyPositions {\n            data {\n                id\n                name }\n        }\n    }\n"): (typeof documents)["\n    query applicantIndividualCompanyPositions {\n        applicantIndividualCompanyPositions {\n            data {\n                id\n                name }\n        }\n    }\n"];
+export function graphql(source: "\n    query applicantIndividualCompanyPositions {\n        applicantIndividualCompanyPositions {\n            data {\n                id\n                name\n            }\n        }\n    }\n"): (typeof documents)["\n    query applicantIndividualCompanyPositions {\n        applicantIndividualCompanyPositions {\n            data {\n                id\n                name\n            }\n        }\n    }\n"];
 
 export function graphql(source: string): unknown;
 export function graphql(source: string) {

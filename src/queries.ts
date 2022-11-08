@@ -1,5 +1,4 @@
-import {gql} from "@apollo/client";
-
+import { gql } from '@apollo/client';
 
 export const GET_RELATIONS = gql`
     query applicantIndividualCompanyRelations {
@@ -10,14 +9,15 @@ export const GET_RELATIONS = gql`
             }
         }
     }
-`
+`;
 
 export const GET_POSITIONS = gql`
     query applicantIndividualCompanyPositions {
         applicantIndividualCompanyPositions {
             data {
                 id
-                name }
+                name
+            }
         }
     }
-`
+`;
