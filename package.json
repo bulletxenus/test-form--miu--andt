@@ -32,7 +32,7 @@
     "eject": "react-scripts eject",
     "generate": "graphql-codegen --config codegen.ts",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b gh-pages -d build"
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": [
